@@ -1,0 +1,244 @@
+body{
+    background-image: url("./img/back4.jpg");
+    background-size: 1536px 760px;
+    background-repeat: no-repeat;
+}
+#tab {
+    width:300px;
+    height: 700px;
+    position:absolute;
+    top:10px;
+    left:10px;             
+}
+#tab h3 {
+   margin: 0px;
+   padding: 0px;
+   font-size: 14px;
+   float: left;
+   right: 5px;                
+   width: 150px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center; 
+   cursor: pointer;
+}
+#tab div {
+    width:280px;
+   clear: both;
+   height: 660px;
+   font-size: 14px;
+   padding: 20px 0px 0px 20px;    
+   display: none;        
+}
+#tab h3.active {
+   background: rgb(255, 255, 255,0.5);
+}
+#tab div.content {
+   display: block;
+   background: rgb(255, 255, 255,0.5);
+}
+.show{
+    width:280px;
+    height:550px;
+    position: absolute;
+    top:100px;
+    left:10px;
+    background-color:rgb(255, 255, 255,0.5) ;
+    overflow-y: auto;
+}
+li{
+    list-style-type: none;
+}
+.ss{
+    width:200px;
+    height:35px;
+    background-color:rgb(251,220,225,0.5);
+    border:solid 2px rgb(251,220,225);
+    position: absolute;
+    top:55px;
+    left:15px;
+    color:rgb(12, 12, 12);
+}
+.tj{
+    width:70px;
+    height:40px;
+    border:solid 2px rgb(251,220,225,0.5);
+    background-color:rgb(248, 175, 187);
+    color:white;
+    position: absolute;
+    top:55px;
+    left:219px;
+}
+.hy{
+    position: absolute;
+    top:10px;
+    left:0px;
+    cursor: pointer;
+}
+.hy li{
+    font-size:20px;
+}
+.lb{
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+.lb li{
+    font-size:18px;
+    margin-top:10px;
+}
+.lb li:hover{
+    cursor: pointer;
+}
+#sss{
+    position: absolute;
+    top:660px;
+    left:15px;
+}
+#tjj{
+    position: absolute;
+    top:661px;
+    left:219px;
+}
+.lt{
+    width:840px;
+    height:720px;
+    position: absolute;
+    top:10px;
+    left:350px;
+    background-color:rgb(250, 245, 246,0.5) ;
+}
+#showa{
+    width:800px;
+    height:500px;
+    position: absolute;
+    top:20px;
+    left:20px;
+    background-color: rgb(250, 245, 246,0.6);
+    overflow-y: auto;
+}
+#showy{
+    border:1px solid white;
+    width:800px;
+    height:150px;
+    position: absolute;
+    top:550px;
+    left:20px;
+    background-color: rgb(250, 245, 246,0.6);
+}
+#fs{
+    position: absolute;
+    top:655px;
+    left:740px;
+}
+
+.distance{
+    margin-top:10px;
+}
+.qp{
+    background-color:rgba(252, 215, 182, 0.466);
+    width:350px;
+    height:auto;
+    border:1px solid white;
+    /* border-radius: 5%; */
+    size:24px;
+    font-weight: 400;
+    padding:15px 5px 15px 5px;
+    word-break: break-all;word-wrap: break-word
+}
+#zr{
+    width:235px;
+    height:auto;
+    position: absolute;
+    top:82px;
+    left:15px;
+    background-color: rgba(252, 215, 182, 0.582);
+}
+#zr li{
+    padding:15px 0;
+}
+.remind{
+    color:red;
+    font-size: 40px;
+    position: relative;
+    right:-30px;
+    /* margin-bottom:-10px; */
+}
+#change{
+    position: absolute;
+    top:20px;
+    right:5px;
+}
+#xiugai{
+    color:white;
+    font-size:20px;
+    position: absolute;
+    top:70px;
+    right:65px;
+}
+#xiugai:hover{
+    cursor: pointer;
+    color:rgba(246, 247, 212, 0.301);
+}
+.kinds{
+    border:solid 1px rgb(167, 164, 122);
+    background-color:rgb(255, 255, 255,0.4) ;
+    color:rgb(167, 164, 122);
+    width:250px;
+    height:40px;
+}
+#amend{
+    border:solid 2px rgba(172, 170, 150, 0.651);
+    background-color: rgba(246, 247, 212, 0.301);
+    border-radius: 5%;
+    width:300px;
+    height:350px;
+    position: absolute;
+    top:200px;
+    right:20px;
+    display: none;
+}
+#list1{
+    position: absolute;
+    top:40px;
+    left:20px;
+}
+#list2{
+    position: absolute;
+    top:95px;
+    left:20px;
+}
+#list3{
+    position: absolute;
+    top:150px;
+    left:20px;
+}
+#list4{
+    position: absolute;
+    top:210px;
+    left:20px;
+}
+#sub{
+    width:70px;
+    height:40px;
+    border:solid 2px rgba(253, 253, 249, 0.651);
+    background-color:rgba(60, 109, 62, 0.801);
+    color:white;
+    position: absolute;
+    top:300px;
+    right:30px;
+    text-align: center;
+    line-height: 40px;
+}
+#sub:hover{
+    cursor: pointer;
+}
+#cancel{
+    font-size: 20px;
+    position: absolute;
+    top:3px;
+    right:8px;
+}
+#cancel:hover{
+    cursor: pointer;
+}

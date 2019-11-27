@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="shouye.css" /> 
+</head>
+<body>
+        <div id="tab">        
+                <h3 class="active">联系人</h3>
+                <h3>群聊</h3>
+                
+                <div class="content">
+                    
+                    <input type = "text" value = "" name = "username" class = "ss" id = "shy" oninput = "czhy()">
+                    <input type = "button" value = "搜索" class = "tj" id = "zhy">
+                    <nav class = "show">
+                        <ul class = "hy">
+                            <li>>>我的好友</li>
+                        </ul>
+                            <ul class = "lb">
+                            </ul>
+                        
+                    </nav>
+                    <ul id = "zr">
+                    </ul>
+                    <input type = "text" name = "add_friend_id" value = "" class = "ss" id ="sss">
+                    <input type = "button" value = "添加" class = "tj" id = "tjj" onclick = "jiaren()">
+                </div>
+                <div><input type = "text" name = "group" value = "" class = "ss">
+                    <input type = "button" value = "找群" class = "tj">
+                    <nav class = "show">
+                        <ul class = "hy">
+                            <li>>>我的群聊</li>
+                        </ul>
+                            <ul class = "lb">
+                            </ul>
+                        
+                    </nav>
+                    <input type = "text" name = "groups" value = "" class = "ss" id ="sss">
+                    <input type = "button" value = "建群" class = "tj" id = "tjj"></div>                    
+           </div>
+
+           <nav class = "lt">
+                <nav id = "showa">
+                    <div id = "ren">    
+                        <!-- <div class = "distance">2019-1-1 xuejiao</div>
+                        <div class = "qp">hellodfdgrgitjrgiotrjgiotrrrrrrrrrrrrrrrrrrrrooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</div>
+                        <div class = "distance">2019-1-1 xuejiao</div>
+                        <div class = "qp">hello</div>
+                        <div class = "distance">2019-1-1 xuesihao</div>
+                        <div class = "qp">hello world!</div> -->
+                   </div>
+                </nav>
+                <textarea id = "showy" name = "text">
+                    
+               </textarea>
+               <input type = "button" value = "发送" class = "tj" id="fs">
+           </nav>
+        <div id = "change"><img src = "./img/jt.jpg" width = "200px" height = "150px"><span id = "xiugai" onclick = "changes()">修改资料</span></div>
+        <form id = "amend">
+            <input type = "text" value = "昵称" name = "screenname" required = "required" class = "kinds" id = "list1">
+            <input type = "text" value = "年龄" name = "age" required = "required" class = "kinds" id = "list2">
+            <input type = "text" value = "性别" name = "sex" required = "required" class = "kinds" id = "list3">
+            <input type = "text" value = "爱好" name = "hobby" required = "required" class = "kinds" id = "list4">        
+            <input type = "button" value = "确认" id = "sub" onclick = "submit()"></input>
+            <div id = "cancel" onclick = "quxiao()">×</div>
+        </form>
+
+    <script type="text/javascript" src="shouye.js"></script>
+</body>
+</html>
